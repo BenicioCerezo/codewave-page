@@ -24,8 +24,8 @@ export const NavBar: React.FC = () => {
               key={item.label}
               href={item.href}
               className="text-gray-200 
-                text-lg
-                hover:text-white 
+                text-xl
+                hover:text- 
                 transition-transform 
                 duration-300 
                 hover:scale-110"

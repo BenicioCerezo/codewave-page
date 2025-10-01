@@ -20,11 +20,13 @@ export const HomePage = () => {
       <NavBar />
       <main className="flex-1 pt-0">
         <ImageCarousel />
+        <div className="bg-gradient-to-bl from-sky-800 via-sky-500 to-teal-400">
         <Servicios />
         <Productos />
         <CasoDeExito />
         <Contacto />
         <Ubicacion />
+        </div>
       </main>
       <Footer />
     </div>
